@@ -4,6 +4,7 @@ import Welcome from "../views/Welcome.vue";
 import PositiveTweet from "../views/PositiveTweet.vue";
 import NegativeTweet from "../views/NegativeTweet.vue";
 import Tweet from "../views/Tweet.vue";
+import Accuracy from "../views/Accuracy.vue";
 
 const routes = [
   {
@@ -31,6 +32,11 @@ const routes = [
     path: "/tweet/vaksin",
     name: "Tweet",
     component: Tweet,
+  },
+  {
+    path: "/tweet/accuracy",
+    name: "Accuracy",
+    component: Accuracy,
   },
   
 ];

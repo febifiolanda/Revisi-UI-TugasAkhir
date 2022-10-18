@@ -112,13 +112,13 @@ export default {
         negative: {
           title: "Negative Sentiment",
           value: "+3,462",
-          iconClass: "fas fa-times",
+          iconClass: "fas fa-minus",
           percentageColor: "text-danger",
           iconBackground: "bg-gradient-danger",
         },
         accuracy: {
           title: "Accuarcy",
-          value: "82.5 %",
+          value: "85.16 %",
           iconClass: "ni ni-paper-diploma",
           iconBackground: "bg-gradient-warning",
         },

@@ -9,12 +9,12 @@
           >
             ©
             {{ new Date().getFullYear() }}, made with
-            <i class="fa fa-heart"></i> by
+            <i class="fa fa-heart"></i> in
             <a
               href="https://www.creative-tim.com"
               class="font-weight-bold"
               target="_blank"
-              >Febi Febiolanda</a
+              >Yogyakarta</a
             >
           </div>
         </div>

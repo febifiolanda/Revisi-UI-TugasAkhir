@@ -44,7 +44,18 @@
           :navText="this.$store.state.isRTL ? 'لوحة القيادة' : 'Negative Tweet'"
         >
           <template v-slot:icon>
-            <i class="fas fa-times text-primary text-sm opacity-10"></i>
+            <i class="fas fa-minus text-primary text-sm opacity-10"></i>
+          </template>
+        </sidenav-item>
+      </li>
+      <li class="nav-item">
+        <sidenav-item
+          url="/tweet/accuracy"
+          :class="getRoute() === 'tweet/accuracy' ? 'active' : ''"
+          :navText="this.$store.state.isRTL ? 'لوحة القيادة' : 'Accuracy'"
+        >
+          <template v-slot:icon>
+            <i class="ni ni-paper-diploma text-primary text-sm opacity-10"></i>
           </template>
         </sidenav-item>
       </li>

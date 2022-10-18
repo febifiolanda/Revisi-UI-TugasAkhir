@@ -156,6 +156,10 @@ Stroke effects - Nucleo outline icons
   height: 300px !important;
 }
 
+.h-450 {
+  height: 450px !important;
+}
+
 .mt-wc {
   margin-top: 10px;
   text-align: center;
