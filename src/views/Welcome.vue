@@ -13,7 +13,7 @@
               class="text-lead text-white"
             >Sentiment Analysis of The Effect of Vaccines on The Jabodetabek Community </p>
             <div class="text-center">
-              <argon-button fullWidth color="dark" variant="gradient" class="my-4 mb-2">Go to Dashboard</argon-button>
+              <argon-button fullWidth color="light" variant="gradient" class="my-4 mb-2">Go to Dashboard</argon-button>
             </div>
           </div>
         </div>
